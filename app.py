@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from modules.data_processing import validate_and_clean
 from modules.exploratory_analysis import show_eda
 from modules.prediction import load_model_bundle, make_prediction_form
 from modules.dashboard import show_dashboard
