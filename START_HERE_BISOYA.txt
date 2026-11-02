@@ -1,0 +1,16 @@
+SUNOD NGA BUHATON (BISAYA)
+
+1. I-download ug i-extract ang ZIP file.
+2. I-upload ang sulod sa folder ngadto sa usa ka GitHub repository.
+3. Sa Streamlit Community Cloud, pili-a ang repository, branch main, ug app.py.
+4. I-deploy ang app.
+5. Sa app, adto sa Dataset ug i-upload ang student_service_requests_synthetic.csv.
+
+Kung gusto nimo i-test sa imong computer:
+- Ablihi ang terminal sulod sa project folder.
+- Run: pip install -r requirements.txt
+- Run: streamlit run app.py
+
+IMPORTANT:
+Ang model file gi-save gamit ang scikit-learn 1.6.1. Ayaw usba ang version sa requirements.txt.
+Ang predictions tabang lamang sa staff; dili kini automatic nga pagdumili sa student service.
